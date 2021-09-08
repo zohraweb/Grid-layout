@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    width: 500px;
+    height: 500px; 
+    grid-gap: 10px;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 80px 300px 80px;
+    padding: 5px;
+    }
+    
+   
+    
+    .left {
+    
+        grid-row-start: 1;
+        grid-row-end: 5;
+        background-color: black;
+    }
+
+    .center {
+    
+        grid-row-start: 1;
+        grid-row-end: 5;
+        background-color: black;
+        }
+        
+    .right {
+    
+        grid-row-start: 1;
+        grid-row-end: 5;
+        background-color: black;
+        }

@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 100px 300px 100px;
+    grid-template-columns: 200px 80px 80px;
+    padding: 5px;
+    }
+    
+    .top {
+        background-color: black;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    .left {
+    
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: black;
+    }
+        
+    .right {
+    
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: black;
+        }
+    
+    .center {
+    
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-color: black;
+            }
+            .bottom {
+    
+                grid-column-start: 1;
+                grid-column-end: 4;
+                background-color: black;
+                }
